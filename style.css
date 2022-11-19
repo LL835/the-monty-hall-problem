@@ -1,8 +1,67 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Quattrocento+Sans&display=swap');
+
+body {
+    background-color: #0C1C2C;
+    padding: 25px;
+}
+h1 {
+    font-family: 'Quattrocento', serif;
+    font-size: 2.5rem;
+    color: #4BB8A6;
     text-align: center;
+    }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #FFF;
+
+}
+.v-spacing-md > * + * {
+    margin-top: 20px;
+}
+.simulation-controls {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#simulation-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#simulation-form div {
+    display: flex;
+    justify-content: space-between;
+}
+select {
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 2px;
+    color: #000;
+}
+.form-buttons {
+    align-self: flex-end;
+}
+
+.form-button {
+    border: solid 1px #4BB8A6;
+    color: #4BB8A6;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 8px;
+    cursor: pointer;
+}
+.form-button + .form-button {
+    margin-left: 10px;
 }
 table, td, th {
-    border: solid 1px black;
+    border: solid 1px #3a4862;
     border-collapse: collapse;
     padding: 5px 15px;
+    text-align: center;
 }
