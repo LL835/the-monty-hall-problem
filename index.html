@@ -9,5 +9,30 @@
         <title>The Monty Hall Problem</title>
     </head>
     <body>
+        <h1>The Monty Hall Problem Simulator</h1>
+        <section class="simulation-controls">
+            <form id="simulation-form" method="" action="">
+                <div>
+                    <label for="no-of-games">No. of games to run:</label>
+                    <select id="no-of-games" name="no-of-games">
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="strategy">Strategy:</label>
+                        <select id="strategy" name="strategy">
+                            <option value="stick">Stay with the first door</option>
+                            <option value="switch">Switch to the other door</option>
+                        </select>
+                </div>
+                <button type="submit">Run simulation</button>
+                <button type="button">About</button>
+                <button type="button">Help</button>
+
+            </form>
+        </section>
     </body>
 </html>
