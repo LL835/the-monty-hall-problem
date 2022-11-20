@@ -1,9 +1,9 @@
 # Coding Challenge: The Monty Hall Problem
 ## Overview
 
-The Monty Hall problem is a probability puzzle that goes like so:
+The Monty Hall problem is a probability puzzle that goes like this:
 
->Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice? - <cite>[Craig F. Whitaker, from a letter in Parade Magazine, 1990][1]</cite>
+>Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice? - <cite>[Craig F. Whitaker, from a letter to Parade Magazine, 1990][1]</cite>
 
 [1]: https://en.wikipedia.org/wiki/Monty_Hall_problem
 
@@ -24,4 +24,4 @@ The program then displays the result of the simulations to the user. It gives th
 By comparing the winrate of the "switch" stategy against the "stick" strategy, it's possible to see that one strategy is the statistically better option.
 
 ## Try it out
-A demo of this project can be found here.
+View a demo of this project [here](https://ll835.github.io/the-monty-hall-problem/).
