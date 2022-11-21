@@ -35,7 +35,7 @@ let results = [];
 
 // <================== Function that simulates the Monty Hall game ==================>
 function runSimulation(noOfRounds, strategy){
-    // use a loop to play run the simulation multiple times
+    // use a loop to run the simulation multiple times
     for (let i = 0; i < noOfRounds; i++) {
         // use pickRandomDoor() to pick a door for the player and determine which door has a car behind it
         const prizeDoor = pickRandomDoor(doors);
@@ -138,7 +138,7 @@ function displayResults(){
     for (let i = 0; i < results.length; i++){
         // creates a new row
         const newRow = document.createElement("tr");
-        // sets the Game no. column. It's i + 1 because arrays start at 0!
+        // sets the Game no. column. It's i + 1 because the count starts at 0.
         const gameNoCell = document.createElement("td");
         gameNoCell.innerText = i + 1;
         newRow.appendChild(gameNoCell);
